@@ -1,3 +1,19 @@
+Rough Thesis:
+
+The ability to use, write, and publish open source build tools has
+changed the way we work with the  front end - and the problems that we
+face once we've decided to write something of our own are already
+largely explored. Knowing what has worked in the past for other
+platforms and how to maintain sanity in the face of creating tools in
+the public will help you tremendously.
+
+(This kind of tool building isn't new. People have been piping together
+small bash scripts in make files for decades now. We don't need to
+reinvent the wheel, but we end up doing it a lot anyway, only to find
+out that their design decisions back then, make sense for our tooling
+now)
+
+
 1. Coming Across Problems
    A. Finding an accessible and PE-based way to explore current
 architecture/library choices
