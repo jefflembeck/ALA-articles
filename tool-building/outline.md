@@ -15,15 +15,15 @@ now)
 
 
 1. Start - Coming Across Problems
-   A. Finding an accessible and PE-based way to explore current
+   * Finding an accessible and PE-based way to explore current
 architecture/library choices
-       > A PE-based front-end framework would fit here
-   B. Things we run into regularly that we learn about along the way
-       > Rendering the page has to wait on a gigantic clump of CSS,
+      * A PE-based front-end framework would fit here
+   * Things we run into regularly that we learn about along the way
+      * Rendering the page has to wait on a gigantic clump of CSS,
 and async loading css means tons of FOUC, so if we could just get the
 applicable css in the page inline and then async load the rest =
 CriticalCSS
-       > Sprite sheets are a big pain to deal with and icon fonts
+      * Sprite sheets are a big pain to deal with and icon fonts
 don't work everywhere and are rough to use with fallbacks, we need a
 retina-friendly and easy to use solution with automatic fallbacks =
 Grunticon
