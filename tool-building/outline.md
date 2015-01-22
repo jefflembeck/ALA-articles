@@ -42,19 +42,19 @@ phantomjs to generate
       * Does it require maintaining a state?
 
 3. The meat - Design Patterns
-   A. Small libraries, do one thing well - follow the "unix philosophy"
-       > Grunticon was originally a beast - now made up of 4
+  * Small libraries, do one thing well - follow the "unix philosophy"
+    * Grunticon was originally a beast - now made up of 4
 different parts, each individually tested and versioned
-       > Arguments about small modules vs. frameworks don't really
+    * Arguments about small modules vs. frameworks don't really
 apply here, these are tools, not large expected pieces. Specialize by
 design.
-   B. Work from the command line, take stdin, output to stdout
-       > This is a thing that we didn't do with grunticon and it
+  * Work from the command line, take stdin, output to stdout
+    * This is a thing that we didn't do with grunticon and it
 bites me regularly - currently working on a switch
-       > Grunticon still only works in the context of Grunt, this
+    * Grunticon still only works in the context of Grunt, this
 isn't true with criticalcss which is a node library in itself, and can
 then has another library that is a small grunt plugin wrapper for it
-   C. Think deeply about your API, make sure it has a couple required
+  * Think deeply about your API, make sure it has a couple required
 parameters, the rest should have defaults and, if in a lib, the
 optional arguments should be passed in an options hash. If it is
 async, make sure to include a callback function (that also has a
