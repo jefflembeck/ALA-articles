@@ -14,7 +14,7 @@ out that their design decisions back then, make sense for our tooling
 now)
 
 
-1. Coming Across Problems
+1. Start - Coming Across Problems
    A. Finding an accessible and PE-based way to explore current
 architecture/library choices
        > A PE-based front-end framework would fit here
@@ -28,7 +28,8 @@ don't work everywhere and are rough to use with fallbacks, we need a
 retina-friendly and easy to use solution with automatic fallbacks =
 Grunticon
 
-2. Common Patterns
+2. Common Patterns - Is this something we've solved before? Have we
+   solved part of it? What type of tool do we need?
    A. Something we handle during the build process
        > Fit in as a Grunt task
        > If it would work as a bookmarklet or add-on, run in
@@ -38,7 +39,7 @@ phantomjs to generate
        > Lib?
        > Does it require maintaining a state?
 
-3. Design Patterns
+3. The meat - Design Patterns
    A. Small libraries, do one thing well - follow the "unix philosophy"
        > Grunticon was originally a beast - now made up of 4
 different parts, each individually tested and versioned
@@ -57,7 +58,7 @@ optional arguments should be passed in an options hash. If it is
 async, make sure to include a callback function (that also has a
 default) as a possible parameter.
 
-4. Shipping - How OSS Works
+4. What do you do when it's done? Shipping - How OSS Works
    A. Once you have cemented an API, use semver
        > Big change? Screw it, 2.0 now.
    B. There is weight in shipping, whether we like it or not
