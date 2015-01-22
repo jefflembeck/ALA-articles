@@ -28,16 +28,18 @@ don't work everywhere and are rough to use with fallbacks, we need a
 retina-friendly and easy to use solution with automatic fallbacks =
 Grunticon
 
-2. Common Patterns - Is this something we've solved before? Have we
-   solved part of it? What type of tool do we need?
-   A. Something we handle during the build process
-       > Fit in as a Grunt task
-       > If it would work as a bookmarklet or add-on, run in
+2. Common Patterns
+  * Is this something we've solved before?
+  * Have we solved part of it?
+  * What type of tool do we need?
+    * Something we handle during the build process
+      * Fit in as a Grunt task
+      * If it would work as a bookmarklet or add-on, run in
 phantomjs to generate
-   B. Something that's reusable module
-       > Check requirements - Does it require jQuery/Shoestring/some Dom
-       > Lib?
-       > Does it require maintaining a state?
+    * Something that's reusable module
+      * Check requirements - Does it require jQuery/Shoestring/some Dom
+      * Lib?
+      * Does it require maintaining a state?
 
 3. The meat - Design Patterns
    A. Small libraries, do one thing well - follow the "unix philosophy"
