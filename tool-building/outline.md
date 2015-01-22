@@ -61,20 +61,19 @@ async, make sure to include a callback function (that also has a
 default) as a possible parameter.
 
 4. What do you do when it's done? Shipping - How OSS Works
-   A. Once you have cemented an API, use semver
-       > Big change? Screw it, 2.0 now.
-   B. There is weight in shipping, whether we like it or not
-       > If people take interest, engage them
-           - Give keys to those who contribute well, with small PRs
+  * Once you have cemented an API, use semver
+    * Big change? Screw it, 2.0 now.
+  * There is weight in shipping, whether we like it or not
+    * If people take interest, engage them
+      * Give keys to those who contribute well, with small PRs
 that fix single issues - they care
-       > Put together contributing guidelines
-           - Sometimes people are jerks, you want to have rules to point
-             to.
-       > If you are the owner of a famous project that has over 30
+    * Put together contributing guidelines
+      * Sometimes people are jerks, you want to have rules to point to.
+    * If you are the owner of a famous project that has over 30
 PRs, and you're not doing anything about them, close them. Inform
 people. They put work into fixing things/adding functionality - don't
 spurn them.
-   C. Be ready to hand over the keys
-       > It's stressful maintaining something popular, if somebody
+  * Be ready to hand over the keys
+    * It's stressful maintaining something popular, if somebody
 else loves your project and wants to maintain it, let them.
-   D. There is so much love in the community, embrace it.
+  * There is so much love in the community, embrace it.
